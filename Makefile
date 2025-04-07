@@ -1,11 +1,11 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra
 
-TARGET = matrix_program
+TARGET = matrix.hpp
 
 SRCS = main.cpp
 
-$(TARGET): $(SRCS) matrix.hpp
+$(TARGET): $(SRCS) 
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRCS)
 
 clean:
