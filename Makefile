@@ -9,4 +9,4 @@ $(TARGET): $(SRCS) matrix.hpp
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRCS)
 
 clean:
-	rm -f $(TARGET) $(OBJS)
+	rm -f $(TARGET)
